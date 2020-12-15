@@ -28,7 +28,7 @@ export default {
         nombre: nombre_hotel,
         };
         //axios.post("https://hotel-pronostico.herokuapp.com/hotel/verification/",post)
-        axios.post("http://127.0.0.1:8000/hotel/verification/",post)
+        axios.post("https://pronostico-back.herokuapp.com/hotel/verification/",post)
             .then((result) =>{
                 self.mensaje = result.data
             })
